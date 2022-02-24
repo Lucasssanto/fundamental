@@ -6,7 +6,11 @@
 </head>
 <body>
     <?php 
-
+        function converterCf($_temp) {
+            return ($_temp * 1.8) + 32;
+        }
+        
+        echo converterCf(20);
     ?>
 </body>
 </html>
